@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+}
+.ideal-person-page{
+    background-image: url('ideal-bg-img.jpg');
+    color: white;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    background-color: black;
+   }
+  

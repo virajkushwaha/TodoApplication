@@ -1,0 +1,24 @@
+  <label>
+      <input type="checkbox" name="todo" value="1" onchange="toggleTodoCompletion(this)">
+      Task 1
+    </label>
+    <div>
+        <div class="container">
+          <h1>Todo List</h1>
+          <form>
+            <label>
+              <input type="checkbox" name="todo" value="1" onchange="toggleTodoCompletion(event)">
+              <span class="todo-text">Task 1</span>
+            </label>
+            <label>
+              <input type="checkbox" name="todo" value="2" onchange="toggleTodoCompletion(event)">
+              <span class="todo-text">Task 2</span>
+            </label>
+            <label>
+              <input type="checkbox" name="todo" value="3" onchange="toggleTodoCompletion(event)">
+              <span class="todo-text">Task 3</span>
+            </label>
+          </form>
+        </div>
+
+    </div>

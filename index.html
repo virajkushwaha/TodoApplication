@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="to_do_list.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To_Do_List</title>
+</head>
+<body>
+  <div id="navbar-container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black" id="navbar">
+        <a class="navbar-brand" href="#"><img src="https://imgs.search.brave.com/NvxSkCAT_1LK4NxsX7kdVvSzp61lqF2SXNScCtmFvdU/rs:fit:1200:1200:1/g:ce/aHR0cDovL2NsaXBh/cnQtbGlicmFyeS5j/b20vaW1hZ2VzX2sv/cmVkLWNoZWNrLW1h/cmstdHJhbnNwYXJl/bnQvcmVkLWNoZWNr/LW1hcmstdHJhbnNw/YXJlbnQtMS5wbmc" class="logo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto ">
+            <a class="nav-link active ancor1" href="#banner" id="ancor1">
+              Home
+              <span class="sr-only">(current)</span>
+            </a>
+            <a class="nav-link ancor1" href="#feature" id="ancor1" >Features</a>
+            <a class="nav-link ancor1" href="#why" id="ancor1" >why_choose_us</a>
+          </div>
+        </div>
+      </nav>
+  </div>
+  <div id="banner">
+    <div class="banner-container">
+        <div class="text-container">
+            <h1 class="banner-heading">To_Do_List</h1>
+            <p class="qoute">"Organize your life with ease: Create and manage your to-do list effortlessly"</p>
+            <p class="create">Create your own To_do_plan</p>
+            <a href="sectionaddtask.html"><button class="button1" type="button" onclick="display('#sectionaddtask')">Create</button></a>
+        </div>
+    </div>
+  </div>
+  <div id="feature">
+    <div class="Features text-center">
+      <h1 class="feature-head">Feature</h1>
+        <div class="row">
+            
+            <div class="col-12 col-md-6 col-sm-12 col-lg-4 col-xl-3 ideal-card justify-content-between text-center mb-5 ml-auto " >
+              <h3 class="ideal-heading"> Good Physique </h3>
+              <div class="ideal-task">
+                <img src="https://i.pinimg.com/236x/13/2e/38/132e38266a3fd6f94dfe7436535d7de5.jpg" class="ideal-image" alt="">
+                <a href="good-physique-page.html"><button class="card-button">view todo list</button></a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-sm-12 col-lg-4 col-xl-3 ideal-card justify-content-between text-center mb-5 ml-auto mr-auto" >
+              <h3 class="ideal-heading"> Ideal person </h3>
+              <div class="ideal-task">
+                <img src="https://i.pinimg.com/564x/e5/4f/00/e54f001ca782c181f2692204f25c68ff.jpg" class="ideal-image" alt="">
+                <a href="ideal_person.html"><button class="card-button">view todo list</button></a>
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-sm-12 col-lg-4 col-xl-3 ideal-card justify-content-between text-center mb-5 mr-auto " >
+              <h3 class="ideal-heading"> Professional person </h3>
+              <div class="ideal-task">
+                <img src="https://i.pinimg.com/236x/df/00/58/df0058de3f70ab4420f39c0bd2887f1e.jpg" class="ideal-image" alt="">
+                <a href="professional.html"><button class="card-button">view todo list</button></a>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+  <div id="why">
+      <div class="why_choose_us">
+            <h1 class="why_choose_us_heading">Why_Choose_Us?</h1>
+            <div class="list-container">
+            <ul>
+              <li class="list-items"><span class="list-item-heading"> User-friendly interface</span>: Our website has a clean and easy-to-use interface that makes it simple to create, organize, and manage your to-do lists.</li>
+              <li class="list-items"><span class="list-item-heading">Accessibility</span>: Our website is accessible from any device with an internet connection, so you can access your to-do lists on-the-go.</li>
+              <li class="list-items"><span class="list-item-heading">Customizability</span>: Our website allows you to customize your to-do lists with colors, tags, and priorities, so you can organize your tasks in a way that works best for you.</li>
+              <li class="list-items"><span class="list-item-heading">Free</span>: Our website is completely free to use, so you can start organizing your tasks without any cost.</li>
+              <li class="list-items"><span class="list-item-heading">Features</span>: Our website provide you features like templates for ideal person to-do list etc.</li>
+              <li class="list-items"><span class="list-item-heading">Security</span>:You can trust with your data we cannot share any information to other about your todo list. And this is prohibited to our website.</li>
+            </ul>
+            </div>
+      </div>
+  </div>
+ 
+  
+    
+  <script src="script.js"></script>
+  <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+
+</body>
+</html>
+

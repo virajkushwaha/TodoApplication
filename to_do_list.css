@@ -1,0 +1,298 @@
+*{
+  margin: 0%;
+}
+body{
+    width: 100%;
+}
+a{
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+
+}
+.bg-black{
+  background-color:black;
+  position:fixed;
+  overflow: hidden;
+	z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#ancor1 {
+  margin: 15px;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  position: relative;
+  font-size: 18px;
+}
+
+#ancor1::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #9c0000;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+}
+
+#ancor1:hover::after {
+  width: 100%;
+}
+.banner-container{
+    background-image: url('banner.jpg');
+    color: red;
+    height: 110vh;
+    background-size: cover;
+    padding-top: 15%;
+    
+    text-align: center;
+}
+
+
+.banner-heading{
+    font-size:45px;
+}
+.qoute{
+    color: white;
+}
+.create{
+    color: grey;
+}
+.button1{
+  padding:5px;
+    height: 40px;
+    width: 130px;
+    color: red;
+    background-color:transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 8px;
+}
+.button1:hover {
+  background-color: #ff0000;
+  color:white;
+  border-width: 1px;
+  border-style: solid;
+  border-color: red;
+  border-radius: 8px;
+}
+.card-button{
+  padding:5px;
+    height: 40px;
+    width: 130px;
+    color: red;
+    background-color:transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    border-radius: 8px;
+}
+.card-button:hover {
+  background-color: #ff0000;
+  color:white;
+}
+
+.Features{
+  color: white;
+  height: 100vh-min;
+  background-image: url('feature-bg-image.jpg');
+  background-size: cover;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.feature-head{
+  padding: 15px;
+}
+.ideal-heading{
+  padding: 20px;
+}
+.ideal-card{
+  background-image: linear-gradient(black,rgba(110, 1, 1, 0.473),black);
+  border-radius: 15px;
+  border-width: 0px;
+  padding: auto;
+
+
+}
+.mr-10{
+  margin: 130px;
+  margin-left: 15px;
+  
+}
+.ideal-image{
+  height: 60vh;
+  width: 40vh;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 15px;
+
+}
+
+.why_choose_us{
+  color: white;
+  background-image: url('why-bg-image.jpg');
+    background-size: cover;
+    
+}
+.why_choose_us_heading{
+    padding: 40px;
+}
+.list-container{
+  width:80%;
+  height:80%;
+  padding: 10%;
+
+}
+.list-items{
+  margin-bottom: 20px;
+}
+.list-item-heading{
+  font-style: italic;
+  font-family: monospace;
+  font-size: 24px;
+  color:yellow;
+  text-decoration: underline;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color:skyblue;
+  color:darkviolet ;
+  padding: 5px;
+  margin: 8px ;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+
+}
+
+
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  font-family: 'brush script mt';
+}
+
+.task span {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.task button {
+  background-color: #f44336;
+  color: white;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.task button:hover {
+  background-color: #d32f2f;
+  color: white;
+}
+.addtask{
+  background-image: url('add-task.jpg');
+  background-size: cover;
+  height: 150vh;
+  padding-top: 20%;
+  text-align: center;
+  margin: 0px;
+}
+.heading-addtask{
+  color: white;
+  font-style: italic;
+  font-size:36px ;
+}
+.additemlist{
+  color: skyblue;
+  text-align: left;
+  font-size: 20px;
+  padding: 150px;
+
+}
+.back{
+  height: 40px;
+  width: 140px;
+  color: white;
+  background-image: transparent !important;
+  margin: 10%;
+  border-width: 1px;
+  border-color: white;
+}
+.back:hover{
+  background-color:rgb(51, 2, 13);
+  color: white;
+
+}
+.ideal-person-page{
+  background-image: url('ideal-bg-img.jpg');
+  color: white;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: auto;
+ }
+ .ideal-person-title{
+  font-family: courier;
+  padding: 20px;
+  color: lightyellow;
+
+ }
+
+ .todo-text{
+  padding-left: 15px;
+ }
+.good-physique-page{
+  background-image: url('good-bg-img.jpg');
+  color: lightblue;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: auto;
+}
+.professional-page{
+  background-image: url('professional-bg.jpg');
+  color: lightblue;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  background-color: black;
+  height: auto;
+
+}
